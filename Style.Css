@@ -1,0 +1,98 @@
+body  { /*This is for the background of all pages*/
+    background: linear-gradient(to bottom, #ffffff, #db87c6);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+.container { /*This is for the div container on About*/
+    width: 60%; 
+    height: 25%;        
+    margin: 0 auto;
+    border: 5px solid #000000; 
+    padding: 20px; 
+    background: linear-gradient(to bottom, #ffffff, #90e3e6);
+}
+.container2 { /*This is for the form on GradeForm*/
+    width: 60%; 
+    height: 25%;        
+    margin: 0 auto;
+    border: 5px solid #000000; 
+    padding: 20px; 
+    background-color:#ffffff;
+}
+#output{ /*This is for the text output of the form*/
+    text-align: center;
+    margin-top: 20px; 
+    font-size: 35px;
+}
+table { /*This is for the contact table*/
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+th, td {/*Contact table header text*/
+    border: 3px solid #000000;
+    padding: 15px;
+    text-align: center;
+}
+th {/*Contact table header color*/
+    background-color: rgb(255, 125, 125);
+}
+nav { /*This is for the navigation menu at the top of each page*/
+    background-color: #333;
+    padding: 3px 0;
+}
+nav ul { /*Nav menu listings*/
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li a { /*Nav menu formatting*/
+    display: block;
+    padding: 10px 20px;
+    color: #fff; 
+    text-decoration: none;
+}
+.main { /*This is for the calendar that is included in the Index page*/
+    width: 65%;
+    margin: 0 auto;
+    }
+    
+    .month {
+    background-color:rgb(255, 125, 125);
+    font:bold 12px verdana;
+    color:white;
+    }
+    
+    .daysofweek {
+    background-color:rgb(196, 196, 196);
+    font:bold 12px verdana;
+    color:white;
+    }
+    
+    .days {
+    font-size: 12px;
+    font-family:verdana;
+    color:black;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    }
+    
+    .days #today{
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    }
+
+#LiveClockIE { /*This allows for the clock on Index to be moved and transparent*/
+        position: relative; 
+        top: 0%; 
+        left: 35%; 
+        background-color: rgba(255, 255, 255, 0);
+}
+.video-container{ /*This allows for the video on about to be moved and centered*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My about page</title>
+    <link rel = "stylesheet" type = "text/css" href = "Style.Css"> <!--Calls CSS file for formatting-->
+    <Style>
+        h2{ /*Centers the h2 tag, only in this file*/
+            text-align: center;
+            font-size: 35px;
+        }
+        p{ /*Centers the p tag, only in this file*/
+            text-align: center;
+            font-size: 25px;
+        }
+    </Style>
+    <nav> <!--Creates a navigation menu-->
+        <ul>
+            <li><a href="index.html">Home</a></li><!--Allows users to navigate to the index page-->
+            <li><a href="about.html">About page</a></li><!--Allows users to navigate to the about page-->
+            <li><a href="contact.html">Contact</a></li> <!--Allows users to navigate to the contact page-->
+            <li><a href="GradeForm.html">Grade Form</a></li><!--Allows users to navigate to the grade form page-->
+        </ul>
+    </nav>
+</head>
+<body>
+    <div class="container"><!--Creates a container that can be customized in the CSS file-->
+        <h2>About this website project:</h2>
+        <p>This website was created as the final project for Josiah's ITS-245 class. <br>
+        This page shows the use of cascading style sheet to create a division that wraps around a box.
+        </p>
+    </div>
+    <h2>Video Example</h2>
+    <div class="video-container"><!--Creates a container for the video to be formatted in the CSS file-->
+        <video width="640" height="360" controls>
+        <source src="ITS245VID.mp4" type="video/mp4"><!--the video used on the page-->
+        </video>
+    </div>
+</body>
+</html>
